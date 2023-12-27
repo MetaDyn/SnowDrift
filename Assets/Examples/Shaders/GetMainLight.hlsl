@@ -18,7 +18,7 @@ void MainLight_float(float3 worldPos, float4 screenPos, out float3 lightDir, out
 #endif
    Light mainLight = GetMainLight(shadowCoord);
    lightDir = mainLight.direction;
-   color = mainLight.color;
+   color = _MainLightColor.rgb;
    distanceAtten = mainLight.distanceAttenuation;
    shadowAtten = mainLight.shadowAttenuation;
 #endif

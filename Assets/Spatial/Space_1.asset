@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Space_1
   m_EditorClassIdentifier: 
   version: 1
-  sku: 
+  sku: 6586d00e6dcaec963d97f81e
   packageName: snwdrift temporary
   thumbnail: {fileID: 2800000, guid: 8556be473992b42dbb7035908e118623, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
-  worldID: 
+  worldID: vrdwfzx3a1vwyf6iwzkyq
   scene: {fileID: 102900000, guid: 4f673699206884661b66e4f57de4f0b7, type: 3}
   csharpAssembly: {fileID: 0}
   embeddedPackageAssets: []
   settings:
     serverInstancingEnabled: 1
     serverCapacitySetting: 1
-    serverInstanceCapacity: 16
+    serverInstanceCapacity: 50

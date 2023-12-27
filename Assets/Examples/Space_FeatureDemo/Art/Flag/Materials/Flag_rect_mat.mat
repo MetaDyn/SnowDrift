@@ -12,7 +12,7 @@ Material:
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -23,8 +23,8 @@ Material:
     m_TexEnvs:
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 33491f913972e4bf7a94a64f77547b25, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 1, y: 1.2}
+        m_Offset: {x: 0, y: -1.2}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -46,9 +46,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 07fe59644479b4111b0ac875bf847505, type: 3}
+        m_Scale: {x: 1, y: 1.2}
+        m_Offset: {x: 0, y: -1.2}
     - _MaskMap_r_smth_g_ao:
         m_Texture: {fileID: 2800000, guid: 09cc867cd9e414d93968caea0b1eafa6, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -106,18 +106,22 @@ Material:
     - _FlowSpeed: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
+    - _GlossinessSource: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SSSBackDiffuse: -0.2
+    - _Shininess: 0
     - _Smoothness: 0.3
+    - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _Smoothness_Add: 0
+    - _SpecSource: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -127,7 +131,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseMapST: {r: 1, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.9063317, g: 0.9063317, b: 0.9063317, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowAmount: {r: 0.15, g: 0.1, b: 0.2, a: 0}
     - _FlowScale: {r: 0.64, g: 0.35, b: 1, a: 0}
@@ -135,7 +139,7 @@ Material:
     - _NormalMapST: {r: 7, g: 7, b: 0, a: 0}
     - _Offset: {r: 0, g: 0.1, b: 0, a: 0}
     - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecColor: {r: 0.19999993, g: 0.19999993, b: 0.19999993, a: 0.3}
   m_BuildTextureStacks: []
 --- !u!114 &6032254885510306153
 MonoBehaviour:
