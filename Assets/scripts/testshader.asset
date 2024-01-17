@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: testshader
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":355.7684,"y":-54.66449},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"testShader","$type":"System.String"},"object":null},"position":{"x":481.0,"y":148.0},"guid":"53f164b7-4316-481b-b5e6-795c8a6f31a7","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"coroutine":false,"defaultValues":{},"position":{"x":-31.0,"y":-82.0},"guid":"1b984164-f4f2-4b9d-9bf3-269d53f17db9","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.OnSceneInitializedNode"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"snowBoard","$type":"System.String"},"object":null},"position":{"x":-401.0,"y":-207.0},"guid":"f14965c4-5d9e-431d-9269-40d6e6be1e21","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"coroutine":false,"defaultValues":{"itemID":{"$content":"6586c3d23fb1dc5d4efc150f","$type":"System.String"}},"position":{"x":-203.0,"y":-238.0},"guid":"a6889b1f-e710-4bc0-814c-4117ab5e3878","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.OnAvatarAttachmentEquipChangedNode"},{"defaultValues":{},"position":{"x":175.0,"y":-237.0},"guid":"5ef8e8c0-e31b-4548-9c35-f5c26a100077","$version":"A","$type":"Unity.VisualScripting.If"},{"defaultValues":{},"position":{"x":-126.0,"y":185.0},"guid":"8c63b03c-c6ac-43f8-b4da-1e525c620006","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.GetLocalActorNode"}],"$version":"A"}}'
+    _objectReferences: []

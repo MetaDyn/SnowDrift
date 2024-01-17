@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DeadPlayer
+  - Locker
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - UI
   - CustomLayer1
   - CustomLayer2
-  - CustomLayer3
+  - Terrain
   - CustomLayer4
   - CustomLayer5
   - CustomLayer6

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" >
+<head>
+<link rel="stylesheet" href="documentation/css/my_custom_styles.css" type="text/css" />
+<link rel="stylesheet" href="documentation/css/template.css" type="text/css" />
+</head>
+<body class="documentation">
+<h1 class="page-title">Snowboard Game Starter Pack (Template) Documentation</h1>
+<b><a href="https://www.freebord-game.com/index.php/dev-tools/snowboard-game-starter-pack-template">FULL ONLINE DOCUMENTATION (it looks better :)</a></b><br />
+<font color="#FF0000">If you have any questions or you cannot find any help for your problem in this documentation then please write a post in the following unity forum thread:<br /><a href="https://forum.unity.com/threads/snowboard-game-starter-template.371653/">Unity Forum: Snowboard Game Starter Pack (Template)</a><br />Please do the same also if you have any feedback or improvement suggestion to this documentation.</font><br /><br />
+
+
+
+<a name="doc_v1_00"></a>
+<p>
+<strong><big>Documentation</big></strong>
+<br />
+<a href="#doc_v1_00_started">Getting Started</a><br />
+<a href="#doc_v1_00_player_conf">Player Configuration</a><br />
+<a href="#doc_v1_00_controls_conf">Control Configuration</a><br />
+<a href="#doc_v1_00_quality_conf">Quality Configuration</a><br />
+<a href="#doc_v1_00_database">Database Handler</a><br />
+<a href="#doc_v1_00_levels">Configure Level Selection</a><br />
+<a href="#doc_v1_00_characters">Configure Player Character Selection</a><br />
+<a href="#doc_v1_00_rails">Configure Rails & Slide Obstacles</a><br />
+<a href="#doc_v1_00_scripts">Scripting Entry Points</a><br />
+</p>
+
+
+
+<a name="doc_v1_00_started"></a><strong><big>Getting Started</big></strong><br />
+To get started open the <b>Menu</b> scene in <b>LapinerTools\SnowboardStarterKit\Scenes\</b> and hit run.
+You will see the menu loaded with a character and a level selection.
+Hit 'GO' in the middle of the screen and use the following default controls
+<ul>
+<li type="disc">
+  ride left / spint in air left: LeftArrow or A
+</li>
+<li type="disc">
+  ride right / spin in air right: RightArrow or S
+</li>
+<li type="disc">
+  accelerate / spin in air forward: UpArrow or W
+</li>
+<li type="disc">
+  slow down / spin in air back: DownArrow or S
+</li>
+<li type="disc">
+  jump: Space
+</li>
+<li type="disc">
+  grab: V
+</li>
+</ul>
+The articles below will show you the best entry points to continue your snowy adventure creation.
+<br />
+<br />
+
+
+<a name="doc_v1_00_player_conf"></a><strong><big>Player Configuration</big></strong><br />
+<table>
+  <tr>
+    <td class="my_table">
+      The <b>PlayerConfig</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\Configs\</b> folder allows you to modify various values of the player controller.
+    </td>
+    <td>
+      <a href="documentation\PlayerConfig.png">
+        <img src="documentation\PlayerConfig.png" border="0" title="Snowboard Game Starter Pack (Template) - Player Configuration" />
+      </a>
+    </td>
+  </tr>
+</table>
+<br />
+<br />
+
+
+<a name="doc_v1_00_controls_conf"></a><strong><big>Control Configuration</big></strong><br />
+Use the <b>ControlsConfig</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\Configs\</b> folder to modify the mobile (Android, iOS, Tizen) control UI and size.
+<a href="documentation\ControlsConfig.png">
+  <img src="documentation\ControlsConfig.png" border="0" title="Snowboard Game Starter Pack (Template) - Quality Handler" />
+</a>
+<br />
+<br />
+
+
+<a name="doc_v1_00_quality_conf"></a><strong><big>Quality Configuration</big></strong><br />
+<table>
+  <tr>
+    <td class="my_table">
+      The <b>GameQualityHandler</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> folder allows you to setup different quality levels. In addition to the usual Unity quality handling it also allows to turn down the terrain quality to be just one white surface without textures, which looks acceptable for low quality settings combined with the toony look. This way you can save a lot of performance on mobile devices.
+    </td>
+    <td>
+      <a href="documentation\GameQualityHandler.png">
+        <img src="documentation\GameQualityHandler.png" border="0" title="Snowboard Game Starter Pack (Template) - Quality Handler" />
+      </a>
+    </td>
+  </tr>
+</table>
+<br />
+<br />
+
+
+<a name="doc_v1_00_database"></a><strong><big>Database Handler</big></strong><br />
+<table>
+  <tr>
+    <td class="my_table">
+      The <b>GameDatabaseHandler</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> folder allows you to change default values for the variables of you game. You can add additional variables by adding them to the <b>enum</b> definitions of the <b>GameDatabaseHandler</b> class. Use the Set* and Get* methods to store and load persisten data in your scripts.
+    </td>
+    <td>
+      <a href="documentation\GameDatabaseHandler.png">
+        <img src="documentation\GameDatabaseHandler.png" border="0" title="Snowboard Game Starter Pack (Template) - Database Handler" />
+      </a>
+    </td>
+  </tr>
+</table>
+<br />
+<br />
+
+
+<a name="doc_v1_00_levels"></a><strong><big>Configure Level Selection</big></strong><br />
+<table>
+  <tr>
+    <td class="my_table">
+      In the <b>Menu</b> scene you will find the <b>UIMenu</b> gameobject having the <b>UIMenu</b> script attached. The property <b>Level Preview Image</b> holds the uGUI Image, which will be used to show the level preview image.
+    </td>
+    <td>
+      <a href="documentation\UIMenuInspector.png">
+        <img src="documentation\UIMenuInspector.png" border="0" title="Snowboard Game Starter Pack (Template) - UI Menu Inspector" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="my_table">
+      The <b>GameLevelHandler</b> prefab in the resource folder <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> populates levels selectable in the menu scene. The <b>GameLevelHandler</b> contains a list of levels setup in the <b>GameLevel</b> class. The property <b>Level Preview Sprite</b> contains the sprite, which will be applied to the uGUI image, which was assigned to the <b>Level Preview Image</b> property of the <b>UIMenu</b> instance. The <b>Level Scene Name</b> is the name of the scene to be loaded.
+    </td>
+    <td>
+      <a href="documentation\GameLevelInspector.png">
+        <img src="documentation\GameLevelInspector.png" border="0" title="Snowboard Game Starter Pack (Template) - Game Level Inspector" width="65%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td class="my_table">
+      To add a new level follow the steps below:<br />
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+  <tr>
+    <td class="my_table">
+      <b>1.a. Create New Level From Duplicate - Easy</b><br />
+      <b>1.a.1</b> Duplicate an existing level scene, e.g. <b>Level 1</b> in the <b>LapinerTools\SnowboardStarterKit\Scenes\</b> folder<br />
+      <b>1.a.2</b> Reshape the terrain and create new or rearrange/delete existing gameobject. Keep <b>Camera</b> and <b>UILevel</b> as is and move <b>PlayerAlive</b> to the new starting position<br />
+      <br />
+      <b>1.b Create New Level From Scratch - Advanced</b><br />
+      <b>1.b.1</b> Create a scene with a terrain<br />
+      <b>1.b.2</b> Delete the camera in your scene<br />
+      <b>1.b.3</b> Add the following prefabs from the <b>LapinerTools\SnowboardStarterKit\Prefabs\</b> folder to the scene <b>PlayerAlive</b>, <b>Camera</b>, <b>FinishLine</b> and <b>UILevel</b><br />
+      <b>1.b.4</b> Move the instance of <b>PlayerAlive</b> to the starting position</b><br />
+      <b>1.b.5</b> Select the <b>Camera</b> instance and assign the <b>PlayerAlive</b> instance to the <b>Target</b> property of <b>CameraFollow</b> class<br />
+      <b>1.b.6</b> Assign the terrain of the scene to the <b>Terrain</b> layer<br />
+      <b>1.b.7</b> Move the finish line to the level end position<br />
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+  <tr>
+    <td class="my_table">
+      <b>2. Add your new scene to the level selection in the main menu</b><br />
+      <b>2.1</b> Select the <b>GameLevelHandler</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> folder and open it for editing<br />
+      <b>2.2</b> Select the 'Level X' child with the highest number, then duplicate and rename it<br />
+      <b>2.3</b> Assign the 'LevelSceneName' and the 'LevelPreviewSprite' in the inspector of the newly created level<br />
+      <b>2.4</b> Add the duplicated child to the <b>Levels</b> array of the <b>GameLevelHandler</b> class on the root of the prefab<br />
+      <b>2.5</b> Add your new scene to <b>File->Build Settings...->Scenes In Build</b>
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+  <tr>
+    <td class="my_table">
+      <b>3. Open the Menu scene and see your level added to the level selection</b><br />
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+</table>
+<br/>
+<br/>
+
+
+<a name="doc_v1_00_characters"></a><strong><big>Configure Player Character Selection</big></strong><br />
+<table>
+  <tr>
+    <td class="my_table">
+      In the <b>Menu</b> scene you will find the <b>UIMenu</b> gameobject having the <b>UIMenu</b> script attached. The property <b>Character Preview Root Transform</b> defines where the player models will be instantiated to preview the player characters.
+    </td>
+    <td>
+      <a href="documentation\UIMenuInspector.png">
+        <img src="documentation\UIMenuInspector.png" border="0" title="Snowboard Game Starter Pack (Template) - UI Menu Inspector" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="my_table">
+      The <b>GameCharacterHandler</b> prefab in the resource folder <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> populates character models selectable in the menu scene. The <b>PlayerModelResourcePathes</b> property of the <b>GameCharacterHandler</b> contains a list of resource paths to the character models. The models are stored in the following resource folder <b>LapinerTools\SnowboardStarterKit\Resources\CharacterModels\</b> each having an 'alive' and a 'dead' setup. The alive setup contains the visuals and animations of the player model. The dead setup contains the ragdoll setup to be applied once the player looses control, because he lands while grabbing or hits an obstacle.
+    </td>
+    <td>
+      <a href="documentation\GameCharacterInspector.png">
+        <img src="documentation\GameCharacterInspector.png" border="0" title="Snowboard Game Starter Pack (Template) - Game Character Inspector" width="65%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+To add a new character model follow the steps below:<br />
+<b>1. Create New Character Model</b><br />
+&nbsp;&nbsp;<b>1.1</b> Make sure your character's <b>Rig</b> is compatible with Mecanim and configured as a <b>Humanoid</b><br/>
+&nbsp;&nbsp;<a href="documentation\NewChar1.png">
+  <img src="documentation\NewChar1.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>1.2</b> Drag and drop your character into a new screen and add the <b>PlayerModelData</b> script<br/>
+&nbsp;&nbsp;<b>1.3</b> Assign <b>LapinerTools\SnowboardStarterKit\Models\Characters\DefaultAvatar\SnowboardAvatar Animator Controller</b> to the property <b>Controller</b> of the <b>Animator</b> component<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar2.png">
+  <img src="documentation\NewChar2.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>1.4</b> Assign the hips bone transform of your character to the <b>Hips Bone</b> property of the <b>PlayerModelData</b> component<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar3.png">
+  <img src="documentation\NewChar3.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>1.5</b> Save you character as a new prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\CharacterModels\</b> folder<br/>
+&nbsp;&nbsp;<b>1.6</b> Add the <b>Resource Path</b> of your new character prefab to the <b>Player Model Resource Pathes</b> property of the <b>GameCharacterHandler</b> prefab in the <b>LapinerTools\SnowboardStarterKit\Resources\GameHandler\</b> folder<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar4.png">
+  <img src="documentation\NewChar4.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>1.7</b> Open the Menu scene and see your new character added to the player model selection, start the game and check if animations work correctly<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar5.png">
+  <img src="documentation\NewChar5.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+<br/>
+<br/>
+
+
+<b>2. Add a snowboard, a trail and particle systems</b><br />
+&nbsp;&nbsp;<b>2.1</b> Open your new character model for editing<br/>
+&nbsp;&nbsp;<b>2.2</b> Navigate to the the left lower leg bone of your character and attach the <b>SnowboardTrailAndParticles</b> prefab from the <b>LapinerTools\SnowboardStarterKit\Resources\CharacterModels</b> folder<br/>
+&nbsp;&nbsp;<b>2.3</b> Attach your snowboard model to the foot bone and make sure that it has no collider<br />
+&nbsp;&nbsp;(trail and particles don't need the foot bone rotation, but the snowboard mesh needs to be attached to the foot)<br/>
+&nbsp;&nbsp;<b>2.4</b> Adjust transformation of both added prefabs to roughly match the right position<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar6.png">
+  <img src="documentation\NewChar6.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>2.5</b> Open and start the Menu scene, then select your character in the menu and find the newly added prefabs in the hierarchy<br/>
+&nbsp;&nbsp;<b>2.6</b> Make final adjustments to the <b>SnowboardTrailAndParticles</b> and your snowboard prefabs, then copy the transforms and apply the updated values to the new character prefab<br/>
+&nbsp;&nbsp;<b>2.7</b> Assign the deactivated collider of the <b>SnowboardTrailAndParticles</b> prefab to the <b>Additional Collider On Death</b> property - this way the collider will be activated when the ragdoll is activated<br/>
+&nbsp;&nbsp;<a href="documentation\NewChar7.png">
+  <img src="documentation\NewChar7.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+<br />
+<br />
+
+
+<b>3. Setup Ragdoll</b><br />
+For all characters you will find a prefab with 'Dead' added to the name. This is a copy of the character, but only containing the rig.
+It will not be instantiated, but all colliders and joints will be copied to the character instance once the player loses control and the ragdoll is activated.
+Basically, the 'Dead' prefab describes how the ragdoll of your character behaves.<br />
+&nbsp;&nbsp;<b>3.1</b> Duplicate your newly created character prefab and add 'Dead' in the end, then open it for editing<br />
+&nbsp;&nbsp;<b>3.2</b> Remove all child gameobjects (e.g. snowboard model, trail, particle systems) except the bones aka the rig and the character model with the <b>SkinnedMeshRenderer</b> component<br />
+&nbsp;&nbsp;<b>3.3</b> Remove all components (e.g. Animator) from root and children except the <b>PlayerModelData</b> and <b>SkinnedMeshRenderer</b> components<br />
+&nbsp;&nbsp;<b>3.4</b> Open the Unity Ragdoll menu in the top bar <b>GameObject->3D Objects->Radoll...</b> - <a href="https://docs.unity3d.com/2020.2/Documentation/Manual/wizard-RagdollWizard.html">see Unity doc</a><br />
+&nbsp;&nbsp;<a href="documentation\NewChar10.png">
+  <img src="documentation\NewChar10.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>3.5</b> Assign all bones as requested and set <b>Total Mass</b> to around 75kg<br />
+&nbsp;&nbsp;<b>3.6</b> Tick <b>Flip Forward</b> if the bones are not aligned to have their Z direction facing forward<br />
+&nbsp;&nbsp;<b>3.7</b> Hit <b>Create</b> when done<br />
+&nbsp;&nbsp;<a href="documentation\NewChar11.png">
+  <img src="documentation\NewChar11.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>3.8</b> Adjust the created colliders to match your character visuals<br />
+&nbsp;&nbsp;<b>3.9</b> Search for all colliders in your character ragdoll and add the <b>PlayerDeadHitDetector</b> component<br />
+&nbsp;&nbsp;<a href="documentation\NewChar12.png">
+  <img src="documentation\NewChar12.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>3.10</b> Now remove the character model gameobject and <b>SkinnedMeshRenderer</b> component<br />
+&nbsp;&nbsp;<b>3.11</b> Clear list properties in the <b>PlayerModelData</b> component<br />
+You should now have only the <b>PlayerModelData</b> script on the root and the bone hierarchy with ragdoll Rigidbodies, Colliders and Joints<br />
+<a href="documentation\NewChar8.png">
+  <img src="documentation\NewChar8.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>3.12</b> Add the <b>PlayerDeadSoundManager</b> component to the root and setup your sounds - it will also add an AudioSource component, which you can setup<br />
+&nbsp;&nbsp;<b>3.13</b> Enter the resource path of your 'Dead' prefab in the <b>PlayerModelData</b> property of the actual new character prefab<br />
+&nbsp;&nbsp;<a href="documentation\NewChar9.png">
+  <img src="documentation\NewChar9.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+&nbsp;&nbsp;<b>3.14</b> Start the game and kill your character, by e.g. jumping and holding 'V' for grab - the game over camera and popups should now be triggered<br />
+&nbsp;&nbsp;<b>3.15</b> The only thing missing is that the right foot of the ragdoll is not attached to the snowboard, to fix that open your actual player character prefab for editing and assign the lower leg bones to the <b>FixedJointOnDeath</b> property of the <b>PlayerModelData</b><br />
+&nbsp;&nbsp;<a href="documentation\NewChar13.png">
+  <img src="documentation\NewChar13.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+<a href="documentation\NewChar14.png">
+  <img src="documentation\NewChar14.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your custom character" />
+</a><br/>
+<br />
+<br />
+
+
+<a name="doc_v1_00_rails"></a><strong><big>Configure Rails & Slide Obstacles</big></strong><br />
+To create a rail add the <b>PlayerMovementLocker</b> script to the gameobject with the collider component of the obstacle. Then create transforms, which will be the points on the rail/obstacle, which the player will pass when grinding. Assign these transforms to the <b>LockPoints</b> property of the added <b>PlayerMovementLocker</b> component.<br />
+<a href="documentation\Rails.png">
+  <img src="documentation\Rails.png" border="0" title="Snowboard Game Starter Pack (Template) - Add your rails and obstacles" />
+</a><br/>
+<br />
+<br />
+
+
+<a name="doc_v1_00_scripts"></a><strong><big>Scripting Entry Points</big></strong><br />
+<ul>
+<li type="disc">
+  <b>PlayerConfig</b> class: contains various balancing values. Adjust them to fit the player character balancing to your world
+</li>
+<li type="disc">
+  <b>UILevel</b> class: shows the score UI and controls the Exit and Restart buttons. Adjust it to change your game handling, e.g. triggering a scoreboard
+</li>
+<li type="disc">
+  <b>UIMenu</b> class: shows the level and character selection and controls the GO button. Adjust it to change your menu handling, e.g. show additional level data or options
+</li>
+<li type="disc">
+  <b>LevelEndSurface</b> class: ends the level when the collider of the gameobject is touched by the player. Add you final score calculation or other game end events
+</li>
+<li type="disc">
+  <b>PlayerInput*</b> classes: responsible for the player controlling. Add joystick handling or hook 3rd party plugins like Rewired here
+</li>
+</ul>
+<br />
+<br />
+
+
+<a name="doc_v1_00_SMTR"></a><strong><big>Snow Mesh Trail Renderer Documentation</big></strong><br />
+The snowy trail drawn on the terrain is created by another of my tools, the documentation can be found below.<br />
+<a href="https://www.freebord-game.com/index.php/dev-tools/mesh-trail">Snow Mesh Trail Renderer</a>
+<br />
+<br /> 
+
+
+</body>
+</html>

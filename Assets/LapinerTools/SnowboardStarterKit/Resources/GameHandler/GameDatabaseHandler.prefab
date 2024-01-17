@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8496160485201578254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1258075387197486679}
+  - component: {fileID: -3796237281273536321}
+  m_Layer: 0
+  m_Name: GameDatabaseHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1258075387197486679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496160485201578254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3796237281273536321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496160485201578254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac123ccea422d74582916e67714f957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BOOL_VARS_DEFAULTS:
+  - Key: IS_CONTROL_MODE_BUTTONS
+    Value: 1
+  - Key: IS_CONTROL_MODE_JOYSTICK
+    Value: 0
+  - Key: IS_CONTROL_MODE_TILT
+    Value: 0
+  - Key: IS_CONTROL_ON_RIGHT
+    Value: 0
+  - Key: IS_BUTTON_CONTROL_SIMPLE
+    Value: 0
+  m_INT_VARS_DEFAULTS:
+  - Key: QUALITY_SETTING_INDEX
+    Value: 2

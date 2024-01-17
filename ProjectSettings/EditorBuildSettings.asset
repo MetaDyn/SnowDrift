@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LapinerTools/SnowboardStarterKit/Scenes/Menu.unity
+    guid: 94e9bd02c7a86cd4a9062a72c55cec77
+  - enabled: 1
+    path: Assets/LapinerTools/SnowboardStarterKit/Scenes/Level 1.unity
+    guid: 2dc9905fe80c8294c9398719be689948
+  - enabled: 1
+    path: Assets/LapinerTools/SnowboardStarterKit/Scenes/Level 2.unity
+    guid: 6d62f04c5f64a4945b64d21958a82502

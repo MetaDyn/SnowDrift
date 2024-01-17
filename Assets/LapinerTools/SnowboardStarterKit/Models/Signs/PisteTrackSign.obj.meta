@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 444a1ca2e4445ee429e2180e93846846
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PisteTrackSign_PisteTrackSign_PisteTrackSignArrow
+    100004: PisteTrackSign_PisteTrackSign_PisteTrackSignBack
+    100006: PisteTrackSign_PisteTrackSign_PisteTrackSignFront
+    100008: PisteTrackSign_PisteTrackSign_PisteTrackSignPole
+    100010: PisteTrackSign.001_PisteTrackSign.001_PisteTrackSignBack
+    100012: PisteTrackSign_PisteTrackSign_PisteTrackSignBackside
+    400000: //RootNode
+    400002: PisteTrackSign_PisteTrackSign_PisteTrackSignArrow
+    400004: PisteTrackSign_PisteTrackSign_PisteTrackSignBack
+    400006: PisteTrackSign_PisteTrackSign_PisteTrackSignFront
+    400008: PisteTrackSign_PisteTrackSign_PisteTrackSignPole
+    400010: PisteTrackSign.001_PisteTrackSign.001_PisteTrackSignBack
+    400012: PisteTrackSign_PisteTrackSign_PisteTrackSignBackside
+    2300000: PisteTrackSign_PisteTrackSign_PisteTrackSignArrow
+    2300002: PisteTrackSign_PisteTrackSign_PisteTrackSignBack
+    2300004: PisteTrackSign_PisteTrackSign_PisteTrackSignFront
+    2300006: PisteTrackSign_PisteTrackSign_PisteTrackSignPole
+    2300008: PisteTrackSign.001_PisteTrackSign.001_PisteTrackSignBack
+    2300010: PisteTrackSign_PisteTrackSign_PisteTrackSignBackside
+    3300000: PisteTrackSign_PisteTrackSign_PisteTrackSignArrow
+    3300002: PisteTrackSign_PisteTrackSign_PisteTrackSignBack
+    3300004: PisteTrackSign_PisteTrackSign_PisteTrackSignFront
+    3300006: PisteTrackSign_PisteTrackSign_PisteTrackSignPole
+    3300008: PisteTrackSign.001_PisteTrackSign.001_PisteTrackSignBack
+    3300010: PisteTrackSign_PisteTrackSign_PisteTrackSignBackside
+    4300000: PisteTrackSign_PisteTrackSign_PisteTrackSignArrow
+    4300002: PisteTrackSign_PisteTrackSign_PisteTrackSignBack
+    4300004: PisteTrackSign_PisteTrackSign_PisteTrackSignFront
+    4300006: PisteTrackSign_PisteTrackSign_PisteTrackSignPole
+    4300008: PisteTrackSign.001_PisteTrackSign.001_PisteTrackSignBack
+    4300010: PisteTrackSign_PisteTrackSign_PisteTrackSignBackside
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

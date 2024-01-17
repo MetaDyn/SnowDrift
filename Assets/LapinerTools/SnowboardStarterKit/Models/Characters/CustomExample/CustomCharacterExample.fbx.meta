@@ -1,0 +1,2794 @@
+fileFormatVersion: 2
+guid: b1e5aaa5d76a2424e87742e4c301d179
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: DEF-chest
+    100004: DEF-f_index_01_L_02
+    100006: DEF-f_index_01_R_02
+    100008: DEF-f_index_02_L
+    100010: DEF-f_index_02_R
+    100012: DEF-f_index_03_L
+    100014: DEF-f_index_03_R
+    100016: DEF-f_middle_01_L_02
+    100018: DEF-f_middle_01_R_02
+    100020: DEF-f_middle_02_L
+    100022: DEF-f_middle_02_R
+    100024: DEF-f_middle_03_L
+    100026: DEF-f_middle_03_R
+    100028: DEF-f_pinky_01_L_02
+    100030: DEF-f_pinky_01_R_02
+    100032: DEF-f_pinky_02_L
+    100034: DEF-f_pinky_02_R
+    100036: DEF-f_pinky_03_L
+    100038: DEF-f_pinky_03_R
+    100040: DEF-f_ring_01_L_02
+    100042: DEF-f_ring_01_R_02
+    100044: DEF-f_ring_02_L
+    100046: DEF-f_ring_02_R
+    100048: DEF-f_ring_03_L
+    100050: DEF-f_ring_03_R
+    100052: DEF-foot_L
+    100054: DEF-foot_R
+    100056: DEF-forearm_01_L
+    100058: DEF-forearm_01_R
+    100060: DEF-hand_L
+    100062: DEF-hand_R
+    100064: DEF-head
+    100066: DEF-hips
+    100068: DEF-neck
+    100070: DEF-shin_01_L
+    100072: DEF-shin_01_R
+    100074: DEF-shoulder_L
+    100076: DEF-shoulder_R
+    100078: DEF-spine
+    100080: DEF-thigh_01_L
+    100082: DEF-thigh_01_R
+    100084: DEF-thumb_01_L_02
+    100086: DEF-thumb_01_R_02
+    100088: DEF-thumb_02_L
+    100090: DEF-thumb_02_R
+    100092: DEF-thumb_03_L
+    100094: DEF-thumb_03_R
+    100096: DEF-upper_arm_01_L
+    100098: DEF-upper_arm_01_R
+    100100: rig
+    100102: root
+    100104: //RootNode
+    100106: SnowboardSizer
+    100108: mesh
+    400000: Body
+    400002: DEF-chest
+    400004: DEF-f_index_01_L_02
+    400006: DEF-f_index_01_R_02
+    400008: DEF-f_index_02_L
+    400010: DEF-f_index_02_R
+    400012: DEF-f_index_03_L
+    400014: DEF-f_index_03_R
+    400016: DEF-f_middle_01_L_02
+    400018: DEF-f_middle_01_R_02
+    400020: DEF-f_middle_02_L
+    400022: DEF-f_middle_02_R
+    400024: DEF-f_middle_03_L
+    400026: DEF-f_middle_03_R
+    400028: DEF-f_pinky_01_L_02
+    400030: DEF-f_pinky_01_R_02
+    400032: DEF-f_pinky_02_L
+    400034: DEF-f_pinky_02_R
+    400036: DEF-f_pinky_03_L
+    400038: DEF-f_pinky_03_R
+    400040: DEF-f_ring_01_L_02
+    400042: DEF-f_ring_01_R_02
+    400044: DEF-f_ring_02_L
+    400046: DEF-f_ring_02_R
+    400048: DEF-f_ring_03_L
+    400050: DEF-f_ring_03_R
+    400052: DEF-foot_L
+    400054: DEF-foot_R
+    400056: DEF-forearm_01_L
+    400058: DEF-forearm_01_R
+    400060: DEF-hand_L
+    400062: DEF-hand_R
+    400064: DEF-head
+    400066: DEF-hips
+    400068: DEF-neck
+    400070: DEF-shin_01_L
+    400072: DEF-shin_01_R
+    400074: DEF-shoulder_L
+    400076: DEF-shoulder_R
+    400078: DEF-spine
+    400080: DEF-thigh_01_L
+    400082: DEF-thigh_01_R
+    400084: DEF-thumb_01_L_02
+    400086: DEF-thumb_01_R_02
+    400088: DEF-thumb_02_L
+    400090: DEF-thumb_02_R
+    400092: DEF-thumb_03_L
+    400094: DEF-thumb_03_R
+    400096: DEF-upper_arm_01_L
+    400098: DEF-upper_arm_01_R
+    400100: rig
+    400102: root
+    400104: //RootNode
+    400106: SnowboardSizer
+    400108: mesh
+    2300000: Body
+    2300002: SnowboardSizer
+    3300000: Body
+    3300002: SnowboardSizer
+    4300000: Body
+    4300002: SnowboardSizer
+    4300004: mesh
+    7400000: Default Take
+    7400002: grab
+    7400004: ride
+    7400006: bomb
+    7400008: grab01
+    7400010: look
+    7400012: air
+    7400014: land
+    7400016: jump_goofy
+    7400018: jump_regular
+    7400020: shaky
+    7400022: grab02
+    7400024: rigAction
+    7400026: flip
+    7400028: land_hard
+    7400030: land_soft
+    7400032: bomb_slow
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Body
+    13700002: mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 34e1208b17a1c6946a853b128da85ca3, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: air
+      takeName: air
+      firstFrame: 0.96
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bomb
+      takeName: bomb
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0.35
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: grab01
+      takeName: grab01
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: grab02
+      takeName: grab02
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_goofy
+      takeName: jump_goofy
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_regular
+      takeName: jump_regular
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: land
+      takeName: land
+      firstFrame: 0.96
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: look
+      takeName: look
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ride
+      takeName: ride
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flip
+      takeName: flip
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shaky
+      takeName: shaky
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: land_hard
+      takeName: land_hard
+      firstFrame: 0.96
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0.5
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: land_soft
+      takeName: land_soft
+      firstFrame: 0.96
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0.5
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bomb_slow
+      takeName: bomb
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0.35
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/DEF-hips
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-neck/DEF-head
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_index_01_L_02/DEF-f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_middle_01_L_02/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_pinky_01_L_02/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-f_ring_01_L_02/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_L/DEF-upper_arm_01_L/DEF-forearm_01_L/DEF-hand_L/DEF-thumb_01_L_02/DEF-thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_index_01_R_02/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_middle_01_R_02/DEF-f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_pinky_01_R_02/DEF-f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-f_ring_01_R_02/DEF-f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-spine/DEF-chest/DEF-shoulder_R/DEF-upper_arm_01_R/DEF-forearm_01_R/DEF-hand_R/DEF-thumb_01_R_02/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_L/DEF-shin_01_L/DEF-foot_L
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R
+        weight: 1
+      - path: rig/root/DEF-hips/DEF-thigh_01_R/DEF-shin_01_R/DEF-foot_R
+        weight: 1
+      - path: SnowboardSizer
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: DEF-hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thigh_01_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shin_01_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-upper_arm_01_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-forearm_01_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-upper_arm_01_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-forearm_01_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thigh_01_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-shin_01_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_01_L_02
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_02_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_03_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_01_L_02
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_02_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_03_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_01_L_02
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_02_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_03_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_01_L_02
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_02_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_03_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_01_L_02
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_02_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_03_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_01_R_02
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_02_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-thumb_03_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_01_R_02
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_02_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_index_03_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_01_R_02
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_02_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_middle_03_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_01_R_02
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_02_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_ring_03_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_01_R_02
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_02_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-f_pinky_03_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Snowboard Girl(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: 
+      position: {x: 0, y: 0.020043597, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.70710677, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-hips
+      parentName: 
+      position: {x: -0.04360801, y: 0.000000003292313, z: 0.797821}
+      rotation: {x: 0.000000058810784, y: 0.7789725, z: -7.825738e-15, w: 0.6270581}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: DEF-thigh_01_L
+      parentName: 
+      position: {x: -0.055149056, y: -0.07742, z: 0.022552876}
+      rotation: {x: -0.009188043, y: 0.98685694, z: -0.001771384, w: 0.16132547}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: DEF-shin_01_L
+      parentName: 
+      position: {x: -0.29895753, y: 0.000000025393092, z: 0.000000004674803}
+      rotation: {x: -0.011769542, y: 0.09111254, z: 0.010265487, w: 0.9957181}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: DEF-foot_L
+      parentName: 
+      position: {x: -0.48373672, y: -0.0055860025, z: -0.00035562378}
+      rotation: {x: 0.009157893, y: -0.5167055, z: -0.005527365, w: 0.8560964}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: DEF-thigh_01_R
+      parentName: 
+      position: {x: -0.055149045, y: 0.07742002, z: 0.022552878}
+      rotation: {x: 0.013778606, y: 0.986594, z: 0.0026377088, w: 0.1625897}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1}
+    - name: DEF-shin_01_R
+      parentName: 
+      position: {x: -0.29910797, y: 0.000000022017048, z: -0.000000009382347}
+      rotation: {x: 0.017648494, y: 0.093858235, z: -0.0154353045, w: 0.9953095}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: DEF-foot_R
+      parentName: 
+      position: {x: -0.4837931, y: 0.0083517125, z: -0.0012840584}
+      rotation: {x: -0.013720366, y: -0.5180411, z: 0.008311101, w: 0.8552053}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: DEF-spine
+      parentName: 
+      position: {x: -0.14054559, y: 0.000000010610904, z: 0.000000009313226}
+      rotation: {x: -0.000000004127303, y: -0.054667786, z: -1.9735457e-17, w: 0.99850464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-chest
+      parentName: 
+      position: {x: -0.12560211, y: 0.000000009482699, z: 5.52973e-10}
+      rotation: {x: -0.000000008808976, y: -0.116678424, z: -3.5777223e-15, w: 0.9931698}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-shoulder_L
+      parentName: 
+      position: {x: -0.19936542, y: -0.014456986, z: 0.080464564}
+      rotation: {x: -0.37823755, y: -0.54220855, z: 0.4247497, w: 0.6184934}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: DEF-upper_arm_01_L
+      parentName: 
+      position: {x: -0.14105496, y: -0.006936955, z: -0.0016968095}
+      rotation: {x: 0.7300231, y: 0.15532273, z: 0.14213794, w: 0.6501831}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: DEF-forearm_01_L
+      parentName: 
+      position: {x: -0.22684303, y: -0.00000011152588, z: 4.65661e-10}
+      rotation: {x: -0.10011456, y: 0.028983867, z: -0.00020467598, w: 0.9945536}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: DEF-hand_L
+      parentName: 
+      position: {x: -0.19544967, y: -0.00056495867, z: -0.007820757}
+      rotation: {x: 0.7210996, y: -0.08611746, z: 0.009199712, w: 0.6873969}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: DEF-f_index_01_L_02
+      parentName: 
+      position: {x: -0.07827186, y: 0.02423302, z: 0.012798232}
+      rotation: {x: 0.026689848, y: 0.15831597, z: -0.09408656, w: 0.98253316}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: DEF-f_index_02_L
+      parentName: 
+      position: {x: -0.009887883, y: -0.000000004656613, z: 0.000000034604454}
+      rotation: {x: -0.00075073895, y: 0.029459722, z: -0.027382229, w: 0.9991906}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: DEF-f_index_03_L
+      parentName: 
+      position: {x: -0.023760658, y: -0.000000015308615, z: 0.00000015825572}
+      rotation: {x: 0.0011260926, y: 0.16062757, z: 0.029138958, w: 0.98658425}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+    - name: DEF-thumb_01_L_02
+      parentName: 
+      position: {x: -0.023105178, y: 0.035694648, z: 0.011558663}
+      rotation: {x: 0.54432076, y: -0.1399048, z: -0.32206866, w: 0.7618487}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.99999976}
+    - name: DEF-thumb_02_L
+      parentName: 
+      position: {x: -0.012557683, y: 0.000000013504177, z: 0.000000052154064}
+      rotation: {x: 0.99352956, y: 0.016765375, z: -0.037280396, w: -0.10596254}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: DEF-thumb_03_L
+      parentName: 
+      position: {x: -0.022910757, y: -0.000000004190952, z: -0.000000014901161}
+      rotation: {x: 0.99254924, y: 0.11686606, z: 0.026318137, w: -0.02226392}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: DEF-f_middle_01_L_02
+      parentName: 
+      position: {x: -0.08139333, y: 0.005853953, z: 0.016719554}
+      rotation: {x: 0.014467501, y: 0.1768486, z: -0.05924773, w: 0.98234665}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999976}
+    - name: DEF-f_middle_02_L
+      parentName: 
+      position: {x: -0.01025725, y: 0.000000001862645, z: 0.000000049556547}
+      rotation: {x: -0.027006827, y: 0.038843427, z: -0.012666581, w: 0.9988}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: DEF-f_middle_03_L
+      parentName: 
+      position: {x: -0.023444874, y: -0.000000020489097, z: -0.00000008632196}
+      rotation: {x: 0.0016191909, y: 0.026469564, z: 0.044900414, w: 0.99863946}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: DEF-f_ring_01_L_02
+      parentName: 
+      position: {x: -0.08278541, y: -0.010789705, z: 0.019894226}
+      rotation: {x: 0.016122457, y: 0.16787116, z: -0.00030391396, w: 0.9856771}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: DEF-f_ring_02_L
+      parentName: 
+      position: {x: -0.013303842, y: 0.000000013038516, z: 0.000000078231096}
+      rotation: {x: -0.021269463, y: 0.02127535, z: -0.027936243, w: 0.99915695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_ring_03_L
+      parentName: 
+      position: {x: -0.021389749, y: -0.000000011175871, z: -0.000000058906153}
+      rotation: {x: -0.032895733, y: 0.009907479, z: 0.035827823, w: 0.9987673}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: DEF-f_pinky_01_L_02
+      parentName: 
+      position: {x: -0.07613971, y: -0.027318196, z: 0.026733113}
+      rotation: {x: -0.02241668, y: 0.16484858, z: 0.018990733, w: 0.98588127}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: DEF-f_pinky_02_L
+      parentName: 
+      position: {x: -0.01087684, y: -0.000000007450581, z: 0.00000014202669}
+      rotation: {x: 0.0015695286, y: 0.037271928, z: 0.013343021, w: 0.9992149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_pinky_03_L
+      parentName: 
+      position: {x: -0.019336345, y: -0.00000000372529, z: -4.65661e-10}
+      rotation: {x: -0.030252688, y: 0.07401411, z: -0.036691222, w: 0.9961227}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: DEF-shoulder_R
+      parentName: 
+      position: {x: -0.19936542, y: 0.014457016, z: 0.080464564}
+      rotation: {x: 0.3782164, y: -0.5422058, z: -0.42506048, w: 0.61829513}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: DEF-upper_arm_01_R
+      parentName: 
+      position: {x: -0.1407138, y: 0.0069783875, z: -0.0015706468}
+      rotation: {x: 0.84086967, y: -0.17992362, z: 0.10967744, w: -0.49853453}
+      scale: {x: 0.9999998, y: 0.9999997, z: 1}
+    - name: DEF-forearm_01_R
+      parentName: 
+      position: {x: -0.22711092, y: 0.000000053551048, z: 0.00000004284084}
+      rotation: {x: -0.0453987, y: 0.01473953, z: 0.028718375, w: 0.9984473}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: DEF-hand_R
+      parentName: 
+      position: {x: -0.19571866, y: 0.0068774987, z: -0.0045718607}
+      rotation: {x: -0.6706387, y: 0.019567661, z: -0.08394075, w: 0.73675966}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: DEF-f_index_01_R_02
+      parentName: 
+      position: {x: -0.07860917, y: -0.02188981, z: -0.008528771}
+      rotation: {x: 0.22634637, y: 0.03875223, z: 0.10551334, w: 0.9675394}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: DEF-f_index_02_R
+      parentName: 
+      position: {x: -0.010683811, y: 0.000000016763806, z: -0.0000000531727}
+      rotation: {x: 0.0058893957, y: 0.031003835, z: -0.022519715, w: 0.9992482}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: DEF-f_index_03_R
+      parentName: 
+      position: {x: -0.02418556, y: -0.000000005122274, z: 0.00000008175266}
+      rotation: {x: -0.00987206, y: -0.0035202524, z: -0.027235413, w: 0.9995741}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: DEF-thumb_01_R_02
+      parentName: 
+      position: {x: -0.021065107, y: -0.035201207, z: -0.011102699}
+      rotation: {x: -0.34471357, y: -0.21991397, z: 0.25668412, w: 0.8757418}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: DEF-thumb_02_R
+      parentName: 
+      position: {x: -0.013850157, y: -0.00000007590279, z: -0.000000004656613}
+      rotation: {x: -0.13377294, y: 0.03745729, z: 0.011250898, w: 0.99024}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999976}
+    - name: DEF-thumb_03_R
+      parentName: 
+      position: {x: -0.026422583, y: 0.000000084983185, z: 0.000000009313226}
+      rotation: {x: -0.007588797, y: 0.025018845, z: 0.109790795, w: 0.99361086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_middle_01_R_02
+      parentName: 
+      position: {x: -0.082906924, y: -0.005600987, z: 0.0026801964}
+      rotation: {x: 0.25387293, y: 0.07049103, z: 0.096164286, w: 0.9598604}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: DEF-f_middle_02_R
+      parentName: 
+      position: {x: -0.011127733, y: 0.00000000372529, z: 0.0000001291628}
+      rotation: {x: 0.023772553, y: 0.034513526, z: -0.011789364, w: 0.9990519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_middle_03_R
+      parentName: 
+      position: {x: -0.023197902, y: -0.000000003958121, z: -0.000000054133125}
+      rotation: {x: 0.042450096, y: -0.068080194, z: 0.0444248, w: 0.9957859}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: DEF-f_ring_01_R_02
+      parentName: 
+      position: {x: -0.08297263, y: 0.007361682, z: 0.016920745}
+      rotation: {x: 0.27592647, y: 0.10652244, z: 0.036178537, w: 0.95457256}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999999}
+    - name: DEF-f_ring_02_R
+      parentName: 
+      position: {x: -0.012585788, y: 0, z: -0.000000006053597}
+      rotation: {x: 0.012328063, y: 0.033541407, z: 0.011952213, w: 0.9992899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_ring_03_R
+      parentName: 
+      position: {x: -0.023132037, y: 0.000000011175871, z: 0.000000010244548}
+      rotation: {x: 0.09309337, y: -0.16372322, z: -0.05246775, w: 0.98070157}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999976}
+    - name: DEF-f_pinky_01_R_02
+      parentName: 
+      position: {x: -0.078640215, y: 0.017879926, z: 0.029727576}
+      rotation: {x: 0.36007312, y: 0.098070696, z: -0.0126213655, w: 0.9276693}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: DEF-f_pinky_02_R
+      parentName: 
+      position: {x: -0.011406751, y: -0.000000044703484, z: 0.00000006519258}
+      rotation: {x: -0.000053309424, y: 0.031826302, z: 0.024765579, w: 0.9991865}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: DEF-f_pinky_03_R
+      parentName: 
+      position: {x: -0.01930327, y: 0.000000029802322, z: 0.00000010244548}
+      rotation: {x: 0.024242789, y: 0.09888317, z: -0.0043448424, w: 0.99479425}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: DEF-neck
+      parentName: 
+      position: {x: -0.25224262, y: 0.000000019043796, z: -0.0017403178}
+      rotation: {x: 0.00000009937569, y: 0.10650955, z: -0.000000009783644, w: 0.9943117}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: DEF-head
+      parentName: 
+      position: {x: -0.08395571, y: 0.000000006338482, z: 0.000000001862645}
+      rotation: {x: -0.000000001975603, y: -0.025417248, z: 0.000000004668056, w: 0.99967694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SnowboardSizer
+      parentName: 
+      position: {x: 0.005908509, y: 0.02016537, z: -0.0015006363}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

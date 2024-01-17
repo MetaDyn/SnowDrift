@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5016511325535750636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380833638782591655}
+  - component: {fileID: 6028950849545658105}
+  m_Layer: 0
+  m_Name: ControlsConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380833638782591655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016511325535750636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6028950849545658105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016511325535750636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6e0a21ec7d1234c91d072c874fadd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BUTTON_CONTROL_SIZE: 0.3
+  m_BUTTON_CONTROL_UP_IMG: {fileID: 2800000, guid: 8c79c4348a55c2d408796fabb23ff499,
+    type: 3}
+  m_BUTTON_CONTROL_UP_DOWN_IMG: {fileID: 2800000, guid: 3465703c9e4e94c4fb2b7cd7790b6744,
+    type: 3}
+  m_BUTTON_CONTROL_DOWN_IMG: {fileID: 2800000, guid: ab097dea8c879f54d84e25c93e568079,
+    type: 3}
+  m_BUTTON_CONTROL_DOWN_DOWN_IMG: {fileID: 2800000, guid: 7f2e83f55da57e04983768ac6bfb9a75,
+    type: 3}
+  m_BUTTON_CONTROL_LEFT_IMG: {fileID: 2800000, guid: 85d736d5db177e64187535bff5edf4f8,
+    type: 3}
+  m_BUTTON_CONTROL_LEFT_DOWN_IMG: {fileID: 2800000, guid: 69152c96ef40bd64ab39c5515a20469c,
+    type: 3}
+  m_BUTTON_CONTROL_RIGHT_IMG: {fileID: 2800000, guid: b4edc08ff15ae0948834ced97580da19,
+    type: 3}
+  m_BUTTON_CONTROL_RIGHT_DOWN_IMG: {fileID: 2800000, guid: 1e5994f2e98a0b246bf2f6fb5b4e12a9,
+    type: 3}
+  m_BUTTON_CONTROL_UPLEFT_IMG: {fileID: 2800000, guid: 4c20f11b48288524c9452a3895c3c848,
+    type: 3}
+  m_BUTTON_CONTROL_UPLEFT_DOWN_IMG: {fileID: 2800000, guid: 0bc9f5b219df1b749869a16511a0cac0,
+    type: 3}
+  m_BUTTON_CONTROL_UPRIGHT_IMG: {fileID: 2800000, guid: efef37379fbbf7a46a3ffd17d4713df0,
+    type: 3}
+  m_BUTTON_CONTROL_UPRIGHT_DOWN_IMG: {fileID: 2800000, guid: c515cc2c26b56c140a250cec0e61f7b3,
+    type: 3}
+  m_BUTTON_CONTROL_LEFTSMALL_IMG: {fileID: 2800000, guid: 8e89d67e3e052c34ebe15f315c62b412,
+    type: 3}
+  m_BUTTON_CONTROL_LEFTSMALL_DOWN_IMG: {fileID: 2800000, guid: 140e73933b10feb48914b595768bdb5b,
+    type: 3}
+  m_BUTTON_CONTROL_RIGHTSMALL_IMG: {fileID: 2800000, guid: 4144a911a32bafb41ae24b244c6cdcdc,
+    type: 3}
+  m_BUTTON_CONTROL_RIGHTSMALL_DOWN_IMG: {fileID: 2800000, guid: 9c12f90c1ede79146a3b25dc801521a5,
+    type: 3}
+  m_BUTTON_CONTROL_DOWNLEFT_IMG: {fileID: 2800000, guid: 4a3422e467aaf0b4c90ccb0115e504d4,
+    type: 3}
+  m_BUTTON_CONTROL_DOWNLEFT_DOWN_IMG: {fileID: 2800000, guid: acf93eed603bfa549b50c52ce7882069,
+    type: 3}
+  m_BUTTON_CONTROL_DOWNRIGHT_IMG: {fileID: 2800000, guid: 15618a5fb40973145940a4f741c91edf,
+    type: 3}
+  m_BUTTON_CONTROL_DOWNRIGHT_DOWN_IMG: {fileID: 2800000, guid: 136f28098b5ae0647b5cabbdecf8d05b,
+    type: 3}
+  m_BUTTON_CONTROL_JUMP_BTN_IMG: {fileID: 2800000, guid: b012625722b25664b8423087e8301ef0,
+    type: 3}
+  m_BUTTON_CONTROL_JUMP_BTN_DOWN_IMG: {fileID: 2800000, guid: 3e6ff26fbdd58ea4ab2c9e52b33f58b1,
+    type: 3}
+  m_BUTTON_CONTROL_JUMP_BTN_GRAY_IMG: {fileID: 2800000, guid: a001eef98546ec348bba839e15a518cd,
+    type: 3}
+  m_BUTTON_CONTROL_GRAB_BTN_IMG: {fileID: 2800000, guid: 44a5407742a364a4fa4b003457b44616,
+    type: 3}
+  m_BUTTON_CONTROL_GRAB_BTN_DOWN_IMG: {fileID: 2800000, guid: 24fda205a7862224291cee66dbb64cd7,
+    type: 3}
+  m_BUTTON_CONTROL_GRAB_BTN_GRAY_IMG: {fileID: 2800000, guid: 0ee159d45d383e7428a2a30c3725fbc7,
+    type: 3}
+  m_JOYSTICK_CONTROL_SIZE: 0.3
+  m_JOYSTICK_CONTROL_BACKGROUND_IMG: {fileID: 2800000, guid: 6430662d07cc7864abfb885e18ae8686,
+    type: 3}
+  m_JOYSTICK_CONTROL_THUMB_IMG: {fileID: 2800000, guid: ab5bb3eb247a4492fa9900f6ac0db050,
+    type: 3}
+  m_TILT_SENSIVITY: 1

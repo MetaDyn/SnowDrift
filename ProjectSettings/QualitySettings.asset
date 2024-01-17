@@ -4,30 +4,30 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
-    name: Performant
+    name: Low
     pixelLightCount: 0
     shadows: 0
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 20
+    shadowDistance: 15
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    skinWeights: 2
-    textureQuality: 0
+    skinWeights: 1
+    textureQuality: 1
     anisotropicTextures: 0
-    antiAliasing: 2
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
     vSyncCount: 0
-    lodBias: 0.4
+    lodBias: 0.3
     maximumLODLevel: 0
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
@@ -37,14 +37,14 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 4
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 003a10fac3d81481abcaa825b0dbb779,
+    customRenderPipeline: {fileID: 11400000, guid: 2f3cfad3f5bce8949adcd522b8f9aeb5,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
-    name: Balanced
+    name: Medium
     pixelLightCount: 1
     shadows: 1
     shadowResolution: 0
@@ -55,7 +55,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    skinWeights: 4
+    skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 2
@@ -64,7 +64,7 @@ QualitySettings:
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
     vSyncCount: 1
-    lodBias: 1
+    lodBias: 0.7
     maximumLODLevel: 0
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
@@ -74,29 +74,29 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 64
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: aa48ea85f2c134a178fc274911bf6f47,
+    customRenderPipeline: {fileID: 11400000, guid: 42dd0f94aa706d14cbeaa1afc4a24556,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
-    name: High Fidelity
-    pixelLightCount: 2
+    name: High
+    pixelLightCount: 4
     shadows: 2
-    shadowResolution: 1
+    shadowResolution: 3
     shadowProjection: 1
-    shadowCascades: 2
-    shadowDistance: 40
+    shadowCascades: 4
+    shadowDistance: 300
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    skinWeights: 255
+    skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 2
-    softParticles: 0
+    antiAliasing: 4
+    softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
@@ -109,28 +109,26 @@ QualitySettings:
     streamingMipmapsRenderersPerFrame: 512
     streamingMipmapsMaxLevelReduction: 2
     streamingMipmapsMaxFileIORequests: 1024
-    particleRaycastBudget: 2048
+    particleRaycastBudget: 4096
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: e810e94c4a4184970b23e75f07cd60db,
+    customRenderPipeline: {fileID: 11400000, guid: dac82348410470443b992cda11e99fcf,
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 1
-    CloudRendering: 2
-    GameCoreScarlett: 2
-    GameCoreXboxOne: 2
-    Lumin: 2
-    Nintendo Switch: 2
-    PS4: 2
-    PS5: 2
-    Server: 0
-    Stadia: 2
+    Android: 2
+    Nintendo 3DS: 1
+    Nintendo Switch: 1
+    PS4: 1
+    PSM: 1
+    PSP2: 0
     Standalone: 2
-    WebGL: 1
-    Windows Store Apps: 2
-    XboxOne: 2
-    iPhone: 1
-    tvOS: 1
+    Tizen: 0
+    WebGL: 2
+    WiiU: 1
+    Windows Store Apps: 1
+    XboxOne: 1
+    iPhone: 0
+    tvOS: 0
